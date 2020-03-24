@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles_final.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100">
+        <div>
+            <nav class="navbar navbar-default navbar-fixed-top" >
+                    <div class="container-fluid" style="height:10%">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <img id="mylogo" class="img-responsive" src="logo.png" alt="Logo">
+                    </div>
+                  
+                   <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" style="font-size: 18px" >Home</a></li>
+                        <li><a href="#aboutus"style="font-size: 18px" style="font-size: 18px">About Us</a></li>
+                        <li><a href="#whatwedo" style="font-size: 18px">What we do</a></li>
+                        <li><a href="#events" style="font-size: 18px">Events</a></li>
+                        <li><a href="#board" style="font-size: 18px">Board</a></li>
+                        <li><a href="#contactus" style="font-size: 18px">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    </div>
+            </nav>
+
+<!--Carousel-->
+            <div>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+              
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <div class="item active">
+                    <img src="carousel/img2.jpg" alt="img2" style="width:100%;opacity: 0.35">
+                 </div>
+              
+                  <div class="item">
+                    <img src="carousel/img3.jpg" alt="img3" style="width:100%;opacity: 0.35">
+                  </div>
+              
+                   <div class="item">
+                    <img src="carousel/img4.jpg" alt="img4" style="width:100%;opacity: 0.35">
+                  </div>
+              
+                  <div class="item">
+                    <img src="carousel/img5.jpg" alt="img5" style="width:100%;opacity: 0.35">
+                  </div>
+              
+                   <div class="item">
+                    <img src="carousel/img6.jpg" alt="img6" style="width:100%; opacity: 0.35">
+                  </div>
+             
+                </div>
+                <div class="main-text" >
+                <div class="col-md-12 text-center" id="txt" style="top: 25%">
+                    <h1 id="stl" style="top: 20%" >CELEBRATE</h1>
+                    <h1 id="stl">INFORM</h1>
+                    <h1 id="stl">SUPPORT</h1>
+                    <h1 id ="stl2" style="top: 20%" > We are ACM-W Manipal </h1>
+                  </div>
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
+              </div>
+              </div>
+<!--Carousel Ends-->
+<!--About Us Page Starts-->
+    <div id="aboutus" class="container-fluid">
+        <div class="row text-center">
+        <h1 style="text-align:center">About Us</h1>
+        <br>
+            <div class="col-sm-6">
+                <video class="myvid" controls>
+                    <source src="acmw_video.mp4" type="video/mp4">
+                    Your browser does not support video.
+                </video>
+            </div>
+        <div class="col-sm-6">
+            <p style="padding-left: 10%; padding-right: 10%;margin-top: 7%;">
+            ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of computer science. 
+            The Manipal chapter of ACM-W wishes to carry forward the vision of ACM-W in establishing a society that not only motivates young girls to become zealous  programmers but also provides them with adequate resources and the right mentor-ship at every step in their path. 
+            We are a research-centric group, striving at inclusion and domain-depth.  
+            </p>
+        </div>
+        </div>
+        </div>
+<!--About us Page Ends-->
+
+<!--What We Do Page Start-->
+<div id="whatwedo" class="container-fluid">
+    <h1 style="text-align: center;">What We Do</h1>
+    <br>
+    <div class="row">
+            <div class="col-sm-3" style="align-content: center;">
+            <div class="card">
+                <img class="card-img-top" src="WhatWeDo/code.png" alt="Card image cap" style="width: 100%;">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Coding</h4>
+                    <p> Coding is an integral element of who we are! We organize workshop and host online contests to further the understanding of Data Structures and Algorithms of the participants. </p>
+                </div> 
+            </div>
+            </div>
+            
+            <div class="col-sm-3" style="align-content: center;">
+            <div class="card">
+                <img class="card-img-top" src="WhatWeDo/research.png" alt="Card image cap" style="width: 100%;">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Research</h4>
+                    <p> Our team has a very passionate set of researches. They fulfill their aim to further the research culture on campus by organizing workshops and talks on research subjects. </p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-sm-3" style="align-content: center;">
+            <div class="card">
+                <img class="card-img-top" src="WhatWeDo/d&d.png" alt="Card image cap" style="width: 100%;">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Design & Development</h4>
+                    <p> We have our own group of enthusiastic graphic designers and web developers who make it a point to make the best looking posters and website content for us. </p>
+                </div>
+            </div>
+            </div>
+    
+            <div class="col-sm-3" style="align-content: center;">
+            <div class="card">
+                <img class="card-img-top" src="WhatWeDo/mentor.png" alt="Card image cap" style="width: 100%;">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Mentorship</h4>
+                    <p> This stands by far the most unique component of us as an organization. We regularly engage in mentoring and teaching each other new developments in our own areas of expertise.</p>
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
+<!--What We Do Page Ends-->
+
+<!-- Events page start-->
+<div id="events" class="container-fluid text-center bg-grey">
+    <h1 style="text-align:center; text-decoration-color: #fff; padding-bottom: 1%;"> Events </h1>
+    <br>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail" >
+          <img src="Events/OpenCV.jpeg" class="card-img-top" alt="poster openCV" style="width:100%">
+        
+            <h5 class="card-title">Open CV Workshop</h5>
+            <p class="card-text">A beginner’s guide to Computer Vision using OpenCV.</p>      
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="Events/DSC++STL.jpeg" class="card-img-top" alt="poster DSC++STL" style="width:100%">
+          
+            <h5 class="card-title">Data Structures with C++ STL</h5>
+            <p class="card-text">Data Structures using C++ STL workshop for the first and second years.</p>      
+        </div>
+      </div>
+    
+        <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="Events/SaveTheSemester.jpeg" class="card-img-top" alt="poster SaveTheSemester" style="width:100%">
+          
+            <h5 class="card-title">Save the Semester</h5>
+            <p class="card-text">An interactive PSUC and Data Structures workshop for girls in first year and
+    second year.</p>
+            </div>
+        </div>
+    
+    </div>
+    
+    <br>
+    <br>
+    
+    <div class="row text-center">
+     
+      <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="Events/GsocTalk.jpeg" class="card-img-top" alt="poster GsocTalk" style="width:100%">
+          
+            <h5 class="card-title">Chat with Siddartha Rao Kamalakara</h5>
+            <p class="card-text">An AMA session for all the GSoC aspirants where he talked about GSoC
+    applications and open source in general.</p>
+            </div>
+        </div>
+    
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="Events/RwR.jpeg" class="card-img-top" alt="poster RwR" style="width:100%">
+          
+            <h5 class="card-title">Rendezvous With Research</h5>
+            <p class="card-text">An IWD extended collaboration with WTM Manipal, students were guided by
+    none other than the esteemed professors of our university, Manipal Academy
+    of Higher Education.</p>      
+        </div>
+      </div>
+    
+       <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="Events/TechOTalk.jpeg" class="card-img-top" alt="poster TechOTalk" style="width:100%">
+        
+            <h5 class="card-title">TechOTalk</h5>
+            <p class="card-text">An interactive session with Ullas Apparanji, an PhD Researcher at IISc on Program Analysis followed by an introduction on GSoc and ACM ICPC.</p>      
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="Events/CSResearch101.jpeg" class="card-img-top" alt="poster CSResearch101" style="width:100%">
+        
+            <h5 class="card-title">CS Research 101</h5>
+            <p class="card-text">A meetup that introduced everyone to several fields of research such as ML,
+    AI, Algorithms etc.</p>      
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="Events/SheMentors.jpeg" class="card-img-top" alt="poster SheMentors" style="width:100%;">
+          
+            <h5 class="card-title">#SHEMENTORS</h5>
+            <p class="card-text">A one on one mentorship session between the senior and freshmen year girls
+    in their hostels.</p>      
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="Events/SearchForResearch.jpeg" class="card-img-top" alt="poster SearchForResearch" style="width:100%">
+          
+            <h5 class="card-title">Search for Research</h5>
+            <p class="card-text">A talk on the different ways to start with research and the different kinds of conferences we can present our paper in.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- Events page end-->
+<!-- Board page starts-->
+<div id="board" class="container-fluid">
+    <h1 style="text-align:center; text-decoration-color: #fff;">Board</h1>
+    <br>
+    <div class="board_image">
+    <img class="board_picture" src="Board/Tanvi.jpeg" id="TanviA" alt="Tanvi Anand" height="150px">
+    <p class="name"> Tanvi Anand</p>
+    <p class="post"> Senior Chairperson</p> 
+    </div>
+
+    <div class="board_image">
+    <img class="board_picture" src="Board/Harshita.png" id="HarshitaB" alt="Harshita Binani" height="150px">
+    <p class="name"> Harshita Binani</p>
+    <p class="post"> Chairperson</p>
+    </div> 
+
+    <div class="board_image">
+    <img class="board_picture" src="Board/Akshatha.jpeg" id="AkshathaK" alt="Akshatha Kamath" height="150px">
+    <p class="name"> Akshatha Kamath</p>
+    <p class="post"> Vice Chairperson</p>
+    </div> 
+
+    <div class="board_image">
+    <img class="board_picture" src="Board/Gauri.jpeg" id="GauriG" alt="Gauri Gupta" height="150px">
+    <p class="name"> Gauri Gupta</p>
+    <p class="post"> Treasurer and Design Head</p>
+    </div> 
+
+    <div class="board_image">
+    <img class="board_picture" src="Board/Rasika.jpeg" id="RasikaM" alt="Rasika Murali" height="150px">
+    <p class="name"> Rasika Murali</p>
+    <p class="post"> Secretary and Social Media Head</p>
+    </div> 
+</div>
+<!--Board Page Ends-->
+<!--Contact Us Page Starts-->
+<div id="contactus">
+    <div class="container-fluid">
+            <h1 style="text-align:center; text-decoration-color: #fff;">Contact Us</h1>
+            <form action="form-process.php" method="POST" enctype="multipart/form-data">
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <input type="textarea" id="message" name="message" placeholder="Message"><br>
+            <br>
+            <input type="submit" value="Send">
+            <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+
+            </form>
+            <p style="padding-left: 10%; padding-right: 10%; margin: 2%; text-align: center;">
+                  <a href="https://www.facebook.com/acmwmanipal" class="fa fa-facebook" target="_blank" data-toggle="tooltip" data-placement="top" title="https://www.facebook.com/acmwmanipal"></a> 
+                  <a href="https://instagram.com/acmwmanipal?igshid=177byspokbejh" class="fa fa-instagram" target="_blank" data-toggle="tooltip" data-placement="top" title="https://instagram.com/acmwmanipal?igshid=177byspokbejh"></a> 
+                  <a href="https://www.youtube.com/channel/UC-qN3AXHIaZwS3nK2WnNNog" class="fa fa-youtube" target="_blank" data-toggle="tooltip" data-placement="top" title="https://www.youtube.com/channel/UC-qN3AXHIaZwS3nK2WnNNog"></a>
+            </p>
+    </div>
+</div>
+<!-- Contact Us Page Ends-->    
+    
+<!-- Footer -->
+    <div class="footer">
+    <div class="container-fluid">
+        <!-- Additional Navigation
+        <ul>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#whatwedo">What we do</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#board">Board</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+         
+        <br>
+        <br>
+        -->
+        <p style="text-align: center;"> Made with ❤️
+      <a href="try2.html">ACM-W Manipal</a>
+      &#169; All Rights Reserved.
+      </p>
+    </div>
+    </div>
+    <!-- Footer ends -->
+</div>  
+<!-- smooth scrollspy-->
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar
+      $(".navbar a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+          window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    
+    $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+</script>
+<!-- smooth scrollspy ends -->
+    </body>
+</html>

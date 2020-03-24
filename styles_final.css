@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body{
+    position: relative;
+}
+
+hr{
+    border: 0.5px solid #222;
+    width: 20%;
+    align-self: center;
+    margin-bottom: 1%;
+}
+
+#mylogo{
+  width: 10%; 
+  margin-top: -1%; 
+  margin-bottom: -5%;
+}
+
+#aboutus{
+   padding: 2%; 
+   margin-bottom: 1%;
+}
+
+.myvid {
+  width: 80%;
+  height: 80%;
+  position : relative;
+    margin: auto;
+    align-content: center;
+}
+
+#whatwedo{
+    background-color: #eceff1;
+    color: #222;
+
+    padding: 2%;
+    align-content: center;
+    margin-bottom: 1%;
+}
+
+.card{
+    background-color: #eceff1;
+    padding: 2%;
+    margin: 1%
+}
+
+#wwdimg {
+    width: 100%;
+}
+
+#events {
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+.row{
+  align: center;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 55%;
+  align-content: center;
+  position : relative;
+  margin: auto;
+  height: 100%;
+  padding: 1%;
+  margin-bottom: 2%;
+ }
+
+.thumbnail:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+  padding: 2px 16px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board {
+  background-color: #eceff1;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+.board_image {
+  /*border: solid;*/
+    display: inline-block;
+    float: left;
+    width: 20%;
+    margin-right: none;
+    height: 275px;
+    border-style: none;
+    /*border-width: 1px;
+    border-color: white;*/
+}
+
+.board_picture {
+  border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post {
+  color: #01579b;
+    margin: none;
+    font-family: sans-serif;
+    padding-top: 0;
+    text-align: center;
+}
+
+.name {
+  color: black;
+    margin: none;
+    font-family: sans-serif;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+#contact-us{
+    text-align: center;
+    display: block;
+    padding: 2%;
+    margin: 1%;
+}
+
+form{
+    padding: 2%;
+    text-align: center;
+}
+
+input[type=text],input[type=email],input[type= textarea]{
+    width: 40%;
+    padding: 1%;
+    margin: 1% 0%;
+}
+
+input[type=submit]{
+    width: 10%;
+    background-color: #e57373;
+    border: none;
+    padding: 1%;
+    color: #FFF;
+    
+}
+
+
+#txt {
+  text-align:center;
+  top: 20%;
+  color:#555;
+  font-family:'Roboto';
+  font-weight:30px;
+  font-size:50px;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+#txt {
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+#stl{
+    font-family: "Crimson Text";
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#stl2{
+  font-size: 190%;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 375px) {
+  .board_image {
+  border-style: solid;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin-right: none;
+    height: 275px;
+    border: none;
+}
+input[type=text],input[type=email],input[type= textarea]{
+    width: 80%;
+    padding: 1%;
+    margin: 1% 0%;
+    }
+
+input[type=submit]{
+    width: 30%;
+    }
+
+#txt {
+  text-align:center;
+  /*top: 20%;*/
+  color:#555;
+  font-family:'Roboto';
+  font-weight:30px;
+  font-size:50px;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+#txt {
+  overflow:hidden;
+  white-space:nowrap;
+}
+  #stl{
+      font-family: "Crimson Text";
+      font-size: 30%;
+      font-weight: bold;
+  }
+     
+    #stl2{
+      top: 20%;
+      font-size: 45%;
+      font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px){
+  .board_image {
+  border-style: solid;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-right: none;
+    height: 275px;
+    border: none;
+}
+
+input[type=text],input[type=email],input[type= textarea]{
+    width: 70%;
+    padding: 1%;
+    margin: 1% 0%;
+}
+
+input[type=submit]{
+    width: 25%;
+}
+
+  #stl{
+      font-family: "Crimson Text";
+      font-size: 45%;
+      font-weight: bold;
+  }
+
+
+    #stl2{
+      font-size: 45%;
+      font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .board_image {
+  border-style: solid;
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    margin-right: none;
+    height: 275px;
+    border: none;
+}
+
+input[type=text],input[type=email],input[type=textarea]{
+    width: 60%;
+    padding: 1%;
+    margin: 1% 0%;
+}
+
+input[type=submit]{
+    width: 20%;
+}
+
+#stl{
+      font-family: "Crimson Text";
+      font-size: 85%;
+      font-weight: bold;
+  }
+
+    #stl2{
+      font-size: 125%;
+      font-weight: 500;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+      #mylogo{
+          width: 17%;
+}
+}
+
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 5%;
+}
+
+
+.main-text {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/*
+#txt:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+ /* animation: showup 5s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}*/
+
