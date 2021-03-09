@@ -1,2 +1,4 @@
-<h1> ACM-W Manipal </h1>
+# ACM-W Manipal Website
+#### Link: https://acmwmanipal.tech/
+
 ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of computer science. The Manipal chapter of ACM-W wishes to carry forward the vision of ACM-W in establishing a society that not only motivates young girls to become zealous programmers but also provides them with adequate resources and the right mentorship at every step in their path.
